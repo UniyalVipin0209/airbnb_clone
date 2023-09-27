@@ -182,21 +182,24 @@ img.logo{
  .fixed-pos{
      position: fixed;
      top:0;
-     left:160px;
-     height: 90px;
+     left:auto;
+     right:auto;
+     height: 72px;
      width:100vw;
-       background-color: white;
+     background-color: white;
+     border-bottom: 1px solid lightgray;
+     margin-bottom: 8px;
  }
  .navbar{
      display: flex;
-     width:70vw;
+     width:990px;
      background-color:#fff;
     
      justify-content: space-between;
      /* height:60px; */
      padding-bottom: 8px;
      margin: 0px auto;
-     margin-right:30vw;
+    
  }
  img.logo{
      height:50px;
@@ -243,7 +246,7 @@ img.logo{
  
  .menuoptionsright{
      display: flex;
-     justify-content: space-evenly;
+     justify-content: flex-start;
      align-items: center;
      background-color: #fff;
      font-size: 11px;
@@ -282,7 +285,7 @@ img.logo{
  
  .card-container{
      position: relative;
-     top:80px;
+     top:110px;
  }
  
  .card-gallery{
@@ -518,28 +521,30 @@ img.logo{
  }
  }
 
- @media screen and (min-width: 990px) {
+ @media screen and (max-width: 899px) and (min-width:768px) {
     /* 01. Navbar Menu */
  
  .fixed-pos{
      position: fixed;
      top:0;
-     left:160px;
-     height: 90px;
-     width:100vw;
+     left:auto;
+     right:auto;
+     height: 72px;
+     width:100ve;
        background-color: white;
+       border-bottom: 1px solid lightgray;
+    margin-bottom: 8px;
  }
  .navbar{
      display: flex;
-     width:70vw;
+     width:899px;
      background-color:     #fff;
     
      justify-content: space-between;
      /* height:60px; */
      padding-bottom: 8px;
      margin: 0px auto;
-     margin-right:30vw;
- }
+     }
  img.logo{
      height:50px;
      margin-top:8px;
@@ -591,21 +596,21 @@ img.logo{
      font-size: 11px;
      font-weight: 600;
      border-radius: 16px;
-     width:320px;
+     width:280px;
      height: 32px;
      margin-top: 10px;
      position: relative;
  }
  
  .menuitem-right{
-     width:130px;
+     width:100px;
      background-color: none;
      color:#1a1919;
      text-align: center;
      
  }
  .menuitem-right:hover{
-     width:130px;
+     width:100px;
      background-color: #fbf9f9;
      color:#1a1919;
      border-radius: 8px;
@@ -616,7 +621,7 @@ img.logo{
  .icons-right{
      display: flex;
      flex-direction: row;
-     width:120px;
+     width:100px;
      gap:20px;
  
  }
@@ -631,15 +636,15 @@ img.logo{
      display: flex;
      flex-direction: row;
      gap:20px;
-     width:80vw;
+     width:899px;
      flex-wrap: wrap;
-     margin: 30px auto;
-     top:80px;
+     margin: 90px auto;
+    
  
  }
  .card{
-     width:320px;
-     height: 420px;
+     width:290px;
+     height: 410px;
      
  }
  .card-img-header{
@@ -672,7 +677,7 @@ img.logo{
  .distance,.duration,.amount{
      display: block;
      color: #4d4c4c;
-     font-size: 12px;
+     font-size: 11px;
  }
  .rowamount{
      margin:4px 0px;
