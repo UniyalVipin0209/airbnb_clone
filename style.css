@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+@media screen and (max-width: 600px) {
+   /* 01. Navbar Menu */
+
+.fixed-pos{
+    position: fixed;
+    top:0;
+    left:5px;
+    height: 50px;
+
+}
+.navbar{
+    display: flex;
+    
+    background-color:#fff;
+   
+    justify-content: space-between;
+    align-items: center;
+    /* height:60px; */
+    padding-bottom: 8px;
+    margin: 0px auto;
+}
+img.logo{
+    height:50px;
+    width:80px;
+    margin:20px 10px 20px 30px;
+}
+.menuoptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 16px;
+    border: .6px solid #dfdede;
+    width:250px;
+    height: 32px;
+    margin-top: 6px;
+    position: relative;
+    
+}
+
+.menuitem{
+    color:#1a1919;
+}
+.searchbtn{
+    position: absolute;
+    top:auto;
+    left:-10px;
+    
+}
+.rightborder{
+    padding-right: 10px;
+    border-right: .7px solid #838282;
+}
+.guest-search{
+    display: flex;
+    background-color: #FF385C;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuoptionsright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 16px;
+    width:320px;
+    height: 32px;
+    margin-top: 10px;
+    position: relative;
+    display: none;
+}
+
+.menuitem-right{
+    width:130px;
+    background-color: none;
+    color:#1a1919;
+    text-align: center;
+    
+}
+.menuitem-right:hover{
+    width:130px;
+    background-color: #fbf9f9;
+    color:#1a1919;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.icons-right{
+    display: flex;
+    flex-direction: row;
+    width:120px;
+    gap:20px;
+
+}
+/*03  Gallery */
+
+.card-container{
+    position: relative;
+    top:80px;
+}
+
+.card-gallery{
+    display: flex;
+   
+    gap:25px;
+    flex-wrap: wrap;
+    margin: 110px auto;
+    top:80px;
+    justify-content: center;
+}
+.card{
+    width:240px;
+    height: 255px;
+    
+}
+.card-img-header{
+    /* position: relative; */
+}
+.card-heart{
+    position:absolute;
+    display: none;
+    top:10px;
+    right:20px;
+  
+}
+.card-img{
+    width: 100%;
+    border-radius: 8px;
+    background-size: cover;
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 11px;
+}
+.rowratings{
+    display: flex;
+    align-items: center;
+    gap:3px;
+    margin: 4px 3px auto;
+}
+.distance,.duration,.amount{
+    display: block;
+    color: #4d4c4c;
+    font-size: 12px;
+}
+.rowamount{
+    margin:4px 0px;
+    display: flex;
+    align-items: center;
+}
+.currency-pos{
+    margin-left: -2px;
+}
+.amount{
+    color:#000;
+ 
+}
+  }
+ @media screen and (min-width: 990px) {
+    /* 01. Navbar Menu */
+ 
+ .fixed-pos{
+     position: fixed;
+     top:0;
+     left:160px;
+     height: 90px;
+     width:100vw;
+       background-color: white;
+ }
+ .navbar{
+     display: flex;
+     width:70vw;
+     background-color:#fff;
+    
+     justify-content: space-between;
+     /* height:60px; */
+     padding-bottom: 8px;
+     margin: 0px auto;
+     margin-right:30vw;
+ }
+ img.logo{
+     height:50px;
+     margin-top:8px;
+ 
+ }
+ .menuoptions{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #fff;
+     font-size: 11px;
+     font-weight: 600;
+     border-radius: 16px;
+     border: .6px solid #dfdede;
+     width:290px;
+     height: 32px;
+     margin-top: 10px;
+     position: relative;
+     
+ }
+ 
+ .menuitem{
+     color:#1a1919;
+ }
+ .searchbtn{
+     position: absolute;
+     top:auto;
+     left:auto;
+     
+ }
+ .rightborder{
+     padding-right: 10px;
+     border-right: .7px solid #838282;
+ }
+ .guest-search{
+     display: flex;
+     background-color: #FF385C;
+     border-radius: 50%;
+     position: relative;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .menuoptionsright{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: #fff;
+     font-size: 11px;
+     font-weight: 600;
+     border-radius: 16px;
+     width:320px;
+     height: 32px;
+     margin-top: 10px;
+     position: relative;
+ }
+ 
+ .menuitem-right{
+     width:130px;
+     background-color: none;
+     color:#1a1919;
+     text-align: center;
+     
+ }
+ .menuitem-right:hover{
+     width:130px;
+     background-color: #fbf9f9;
+     color:#1a1919;
+     border-radius: 8px;
+     text-align: center;
+ 
+ }
+ 
+ .icons-right{
+     display: flex;
+     flex-direction: row;
+     width:120px;
+     gap:20px;
+ 
+ }
+ /*03  Gallery */
+ 
+ .card-container{
+     position: relative;
+     top:80px;
+ }
+ 
+ .card-gallery{
+     display: flex;
+     flex-direction: row;
+     gap:20px;
+     width:990px;
+     flex-wrap: wrap;
+     margin: 90px auto;
+     top:80px;
+ 
+ }
+ .card{
+     width:300px;
+     height: 310px;
+     
+ }
+ .card-img-header{
+     /* position: relative; */
+ }
+ .card-heart{
+     position:absolute;
+     display: none;
+     top:10px;
+     right:20px;
+   
+ }
+ .card-img{
+     width: 100%;
+     border-radius: 8px;
+     background-size: cover;
+ }
+ .card-details{
+     display: flex;
+     justify-content: space-between;
+     font-weight: 600;
+     font-size: 12px;
+ }
+ .rowratings{
+     display: flex;
+     align-items: center;
+     gap:3px;
+     margin-bottom: 4px;
+ }
+ .distance,.duration,.amount{
+     display: block;
+     color: #4d4c4c;
+     font-size: 12px;
+ }
+ .rowamount{
+     margin:4px 0px;
+     display: flex;
+     align-items: center;
+ }
+ .currency-pos{
+     margin-left: -2px;
+ }
+ .amount{
+     color:#000;
+  
+ }
+ }
+
+ @media screen and (min-width: 768px)  and (orientation:portrait) {
+    /* 01. Navbar Menu */
+ 
+ .fixed-pos{
+     position: fixed;
+     top:0px;
+     left:30px;
+     height: 100px;
+     background-color:#fff;
+     width:100vw;
+ }
+ .navbar{
+     display: flex;
+     flex-direction: row;
+     width:90vw;
+     background-color:#fff;
+     justify-content: space-evenly;
+     /* height:60px; */
+     padding-bottom: 8px;
+     margin: 3px auto;
+     right:10vw;
+ }
+ img.logo{
+     height:42px;
+    margin-top: 8px;
+ }
+ .menuoptions{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #fff;
+     font-size: 11px;
+     font-weight: 600;
+     border-radius: 16px;
+     border: .6px solid #dfdede;
+     width:370px;
+     height: 32px;
+     margin-top: 10px;
+     position: relative;
+     
+ }
+ 
+ .menuitem{
+     color:#1a1919;
+ }
+ .searchbtn{
+     position: absolute;
+     top:auto;
+     left:-25px;
+     
+ }
+ .rightborder{
+     padding-right: 10px;
+     border-right: .7px solid #838282;
+ }
+ .guest-search{
+     display: flex;
+     background-color: #FF385C;
+     border-radius: 50%;
+     position: relative;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .menuoptionsright{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: #fff;
+     font-size: 11px;
+     font-weight: 600;
+     border-radius: 16px;
+     width:320px;
+     height: 32px;
+     margin-top: 10px;
+     position: relative;
+     display: none;
+ }
+ 
+ .menuitem-right{
+     width:130px;
+     background-color: none;
+     color:#1a1919;
+     text-align: center;
+     
+ }
+ .menuitem-right:hover{
+     width:130px;
+     background-color: #fbf9f9;
+     color:#1a1919;
+     border-radius: 8px;
+     text-align: center;
+ 
+ }
+ 
+ .icons-right{
+     display: flex;
+     flex-direction: row;
+     width:120px;
+     gap:20px;
+ 
+ }
+ /*03  Gallery */
+ 
+ .card-container{
+     position: relative;
+     top:80px;
+ }
+ 
+ .card-gallery{
+     display: flex;
+     flex-direction: row;
+     gap:20px;
+     width:76vw;
+     flex-wrap: wrap;
+     margin: 90px auto;
+     top:80px;
+ 
+ }
+ .card{
+     width:280px;
+     height: 400px;
+     margin-bottom: 14px;
+ }
+ .card-img-header{
+     /* position: relative; */
+ }
+ .card-heart{
+     position:absolute;
+     display: none;
+     top:10px;
+     right:20px;
+   
+ }
+ .card-img{
+     width: 100%;
+     height: 340px;
+     border-radius: 8px;
+     background-size: cover;
+ }
+ .card-details{
+     display: flex;
+     justify-content: space-between;
+     font-weight: 600;
+     font-size: 12px;
+ }
+ .rowratings{
+     display: flex;
+     align-items: center;
+     gap:3px;
+     margin-bottom: 4px;
+ }
+ .distance,.duration,.amount{
+     display: block;
+     color: #4d4c4c;
+     font-size: 12px;
+ }
+ .rowamount{
+     margin:4px 0px;
+     display: flex;
+     align-items: center;
+ }
+ .currency-pos{
+     margin-left: -2px;
+ }
+ .amount{
+     color:#000;
+  
+ }
+ }
+
+ @media screen and (min-width: 990px) {
+    /* 01. Navbar Menu */
+ 
+ .fixed-pos{
+     position: fixed;
+     top:0;
+     left:160px;
+     height: 90px;
+     width:100vw;
+       background-color: white;
+ }
+ .navbar{
+     display: flex;
+     width:70vw;
+     background-color:     #fff;
+    
+     justify-content: space-between;
+     /* height:60px; */
+     padding-bottom: 8px;
+     margin: 0px auto;
+     margin-right:30vw;
+ }
+ img.logo{
+     height:50px;
+     margin-top:8px;
+ 
+ }
+ .menuoptions{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #fff;
+     font-size: 11px;
+     font-weight: 600;
+     border-radius: 16px;
+     border: .6px solid #dfdede;
+     width:290px;
+     height: 32px;
+     margin-top: 10px;
+     position: relative;
+     
+ }
+ 
+ .menuitem{
+     color:#1a1919;
+ }
+ .searchbtn{
+     position: absolute;
+     top:auto;
+     left:auto;
+     
+ }
+ .rightborder{
+     padding-right: 10px;
+     border-right: .7px solid #838282;
+ }
+ .guest-search{
+     display: flex;
+     background-color: #FF385C;
+     border-radius: 50%;
+     position: relative;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .menuoptionsright{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: #fff;
+     font-size: 11px;
+     font-weight: 600;
+     border-radius: 16px;
+     width:320px;
+     height: 32px;
+     margin-top: 10px;
+     position: relative;
+ }
+ 
+ .menuitem-right{
+     width:130px;
+     background-color: none;
+     color:#1a1919;
+     text-align: center;
+     
+ }
+ .menuitem-right:hover{
+     width:130px;
+     background-color: #fbf9f9;
+     color:#1a1919;
+     border-radius: 8px;
+     text-align: center;
+ 
+ }
+ 
+ .icons-right{
+     display: flex;
+     flex-direction: row;
+     width:120px;
+     gap:20px;
+ 
+ }
+ /*03  Gallery */
+ 
+ .card-container{
+     position: relative;
+     top:80px;
+ }
+ 
+ .card-gallery{
+     display: flex;
+     flex-direction: row;
+     gap:20px;
+     width:80vw;
+     flex-wrap: wrap;
+     margin: 30px auto;
+     top:80px;
+ 
+ }
+ .card{
+     width:320px;
+     height: 420px;
+     
+ }
+ .card-img-header{
+     /* position: relative; */
+ }
+ .card-heart{
+     position:absolute;
+     display: none;
+     top:10px;
+     right:20px;
+   
+ }
+ .card-img{
+     width: 100%;
+     border-radius: 12px;
+     background-size: cover;
+ }
+ .card-details{
+     display: flex;
+     justify-content: space-between;
+     font-weight: 600;
+     font-size: 12px;
+ }
+ .rowratings{
+     display: flex;
+     align-items: center;
+     gap:3px;
+     margin-bottom: 4px;
+ }
+ .distance,.duration,.amount{
+     display: block;
+     color: #4d4c4c;
+     font-size: 12px;
+ }
+ .rowamount{
+     margin:4px 0px;
+     display: flex;
+     align-items: center;
+ }
+ .currency-pos{
+     margin-left: -2px;
+ }
+ .amount{
+     color:#000;
+  
+ }
+ }
