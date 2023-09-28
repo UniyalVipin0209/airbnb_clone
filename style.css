@@ -129,12 +129,13 @@ img.logo{
 .card{
     width:240px;
     height: 255px;
-    
+    cursor: pointer;
+    transition: .4s ease-in-out;
 }
 .card:hover{
     width:240px;
     height: 255px;
-    transform: rotateX(5deg);
+    transform: scale(1.05);
 }
 .card-img-header{
     /* position: relative; */
@@ -306,12 +307,13 @@ img.logo{
  .card{
      width:300px;
      height: 310px;
-     
+     cursor: pointer;
+     transition: .4s ease-in-out;
  }
  .card:hover{
     width:300px;
      height: 310px;
-     transform: rotateX(5deg);
+     transform: scale(1.05);
  }
  .card-img-header{
      /* position: relative; */
@@ -482,12 +484,13 @@ img.logo{
  .card{
      width:290px;
      height: 410px;
-     
+     cursor: pointer;
+     transition: .4s ease-in-out;
  }
  .card:hover{
     width:290px;
      height: 410px;
-     transform: rotateX(5deg);
+     transform: scale(1.05);
  }
  .card-img-header{
      /* position: relative; */
@@ -659,12 +662,13 @@ img.logo{
  .card{
      width:320px;
      height: 410px;
-     
+     cursor: pointer;
+     transition: .4s ease-in-out;
  }
  .card:hover{
     width:320px;
     height: 410px;
-    transform: rotateX(5deg);
+    transform: scale(1.05);
 
 }
 
@@ -836,13 +840,15 @@ img.logo{
      width:280px;
      height: 340px;
      margin-bottom: 14px;
+     cursor: pointer;
+     transition: .4s ease-in-out;
  }
 
  .card:hover{
     width:280px;
     height: 340px;
     margin-bottom: 14px;
-    transform: rotateX(5deg);
+    transform: scale(1.05);
 }
  .card-img-header{
      /* position: relative; */
@@ -1014,9 +1020,10 @@ img.logo{
  .card{
      width:310px;
      height: 340px;
-     
+     cursor: pointer;
+     transition: .4s ease-in-out;
  }
- .card{
+ .card:hover{
     width:310px;
     height: 340px;
     transform: rotate(20deg);   
